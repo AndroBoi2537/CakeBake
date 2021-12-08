@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="icon" href="../Images/Logo.png" />
+    <link rel="stylesheet" href="./tailwind.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="flex flex-row sm:py-3 py-2 sm:px-0 px-3 sm:container sm:mx-auto"
+    >
+      <div>
+        <a class="" href=""
+          ><img
+            class="w-14 sm:w-20 relative bottom-1"
+            src="../Images/Logo.png"
+            alt="Logo"
+        /></a>
+      </div>
+      <div class="sm:flex flex-row ml-auto font-Mb pt-2 hidden">
+        <a class="px-2" href="./index.html"> <h3>home</h3> </a>
+        <a class="px-2" href="./products.html"> <h3>products</h3> </a>
+        <a class="px-2" href="./about.html"> <h3>about us</h3> </a>
+        <div class="flex flex-col">
+          <a class="px-2" href="./contact.html"> <h3>contact us</h3> </a>
+          <div
+            class="h-1 bg-red-400 animate__animated animate__fadeInLeft"
+          ></div>
+        </div>
+      </div>
+      <div class="ml-auto sm:hidden">
+        <button id="ham" class="px-2">
+          <img src="../Images/menu.png" alt="" />
+        </button>
+      </div>
+    </nav>
+    <!-- mobile nav -->
+    <nav id="mobNav" class="hidden">
+      <div class="flex flex-col text-center items-center font-Mb">
+        <a
+          class="py-3 border-b-2 border-t-2 border-red-300 w-full"
+          href="./index.html"
+        >
+          <h3 class="animate__animated animate__fadeIn">home</h3>
+        </a>
+        <a class="py-3 border-b-2 border-red-300 w-full" href="./products.html">
+          <h3 class="animate__animated animate__fadeIn">products</h3>
+        </a>
+        <a class="py-3 border-b-2 border-red-300 w-full" href="./about.html">
+          <h3 class="animate__animated animate__fadeIn">about us</h3>
+        </a>
+        <a class="py-3 border-b-2 border-red-300 w-full" href="./contact.html">
+          <h3 class="animate__animated animate__fadeIn">contact us</h3>
+        </a>
+      </div>
+    </nav>
+    <section
+      class="
+        flex
+        sm:flex-row
+        flex-col-reverse
+        items-center
+        w-full
+        mx-auto
+        text-center
+        md:text-left
+        sm:py-10 sm:container sm:mx-auto
+      "
+    >
+      <div class="sm:w-1/2">
+        <h1 class="font-Mb text-center text-4xl">
+          We'd love to get in<br />
+          touch with you
+        </h1>
+        <div class="flex flex-col items-center">
+          <input
+            class="my-2 w-96 p-2 bg-gray-100"
+            placeholder="Name"
+            type="text"
+          />
+          <input
+            class="my-2 w-96 p-2 bg-gray-100"
+            placeholder="Email"
+            type="text"
+          />
+          <a href="">
+            <button class="bg-black px-6 mt-5 py-3">
+              <h1 class="font-Mb text-2xl text-white">submit</h1>
+            </button>
+          </a>
+        </div>
+      </div>
+      <div id="CImg" class="relative sm:w-1/2 flex justify-center items-center">
+        <h1
+          class="
+            font-Mb
+            text-6xl
+            absolute
+            z-10
+            text-center text-white
+            animate__animated animate__fadeInLeft
+          "
+        >
+          Let us get to know better about you
+        </h1>
+        <div class="">
+          <img src="../Images/contactUs3.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <div>
+      <footer class="border-t-8 border-b-8 border-red-400">
+        <div
+          class="
+            flex
+            sm:flex-row
+            flex-col
+            container
+            mx-auto
+            justify-center
+            pb-10
+          "
+        >
+          <div class="sm:w-1/3">
+            <h1 class="font-Mb text-3xl pt-5 text-gray-600">Sitemap</h1>
+            <div class="font-Mm text-xl text-gray-400">
+              <a href="./index.html"><p>home</p></a>
+              <a href="./about.html"><p>about us</p></a>
+              <a href="./products.html"><p>products</p> </a>
+              <a href="./contact.html"><p>contact us</p></a>
+            </div>
+          </div>
+          <div class="sm:w-1/3 flex flex-col">
+            <h1 class="font-Mb text-3xl pt-5 text-gray-600">contact</h1>
+            <div>
+              <div class="flex flex-row">
+                <img class="w-7 opacity-70" src="../Images/email.png" alt="" />
+                <h2 class="font-Mm md:text-sm text-sm pl-2 text-gray-400">
+                  CakeBake@ggsMail.com
+                </h2>
+              </div>
+              <div class="flex flex-row">
+                <img
+                  class="w-7 opacity-70"
+                  src="../Images/old-typical-phone.png"
+                  alt=""
+                />
+                <h2 class="s font-Mm sm:text-lg text-sm pl-2 text-gray-400">
+                  1-234-567-89
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="sm:w-1/3">
+            <h1 class="font-Mb text-3xl pt-5 text-gray-600">Address</h1>
+            <h2 class="font-Mm sm:text-lg text-sm text-gray-400">
+              5350 14th Ave NW,<br />
+              Anoka. Minnesota(MN),<br />
+              55303
+            </h2>
+          </div>
+        </div>
+      </footer>
+      <img class="w-16 pb-2" src="../Images/Logo.png" alt="" />
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

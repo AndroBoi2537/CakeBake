@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Roboto:wght@500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo h3 {
+  font-size: 50px;
+}
+
+@font-face {
+  font-family: Mb;
+  src: url(../Fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: Mm;
+  src: url(../Fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: M_blk;
+  src: url(../Fonts/Montserrat-Black.ttf);
+}
+
+.Rob_M {
+  font-family: "Roboto", sans-serif;
+}
+
+.Exo {
+  font-family: "Exo", sans-serif;
+}

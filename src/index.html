@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./tailwind.css" />
+    <link rel="icon" href="../Images/Logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <script type="module" src="./index.js"></script>
+    <nav
+      class="flex flex-row sm:py-3 py-2 sm:px-0 px-3 sm:container sm:mx-auto"
+    >
+      <div>
+        <a class="" href=""
+          ><img
+            class="w-14 sm:w-20 relative bottom-1"
+            src="../Images/Logo.png"
+            alt="Logo"
+        /></a>
+      </div>
+      <div class="hidden sm:flex flex-row ml-auto font-Mb pt-2">
+        <div class="flex flex-col">
+          <a class="px-2" href="./index.html"> <h3>home</h3> </a>
+          <div
+            class="h-1 bg-red-400 animate__animated animate__fadeInLeft"
+          ></div>
+        </div>
+        <a class="px-2" href="./products.html"> <h3>products</h3> </a>
+        <a class="px-2" href="./about.html"> <h3>about us</h3> </a>
+        <a class="px-2" href="./contact.html">
+          <h3>contact us</h3>
+        </a>
+      </div>
+      <div class="ml-auto sm:hidden">
+        <button id="ham" class="px-2">
+          <img src="../Images/menu.png" alt="" />
+        </button>
+      </div>
+    </nav>
+    <!-- mobile nav -->
+    <nav id="mobNav" class="hidden">
+      <div class="flex flex-col text-center items-center font-Mb">
+        <a class="py-3 border-b-2 border-t-2 border-red-300 w-full" href="">
+          <h3 class="animate__animated animate__fadeIn">home</h3>
+        </a>
+        <a class="py-3 border-b-2 border-red-300 w-full" href="">
+          <h3 class="animate__animated animate__fadeIn">products</h3>
+        </a>
+        <a class="py-3 border-b-2 border-red-300 w-full" href="">
+          <h3 class="animate__animated animate__fadeIn">about us</h3>
+        </a>
+        <a class="py-3 border-b-2 border-red-300 w-full" href="">
+          <h3 class="animate__animated animate__fadeIn">contact us</h3>
+        </a>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <section
+      class="
+        flex
+        sm:flex-row
+        flex-col-reverse
+        items-center
+        w-full
+        mx-auto
+        text-center
+        sm:text-left sm:my-28 sm:container sm:mx-auto
+      "
+    >
+      <div class="sm:w-1/2 sm:my-0 my-10">
+        <h1 class="font-Mb xl:text-6xl sm:text-4xl text-3xl">
+          Enjoy Delicious,<br />
+          Custom cakes.
+        </h1>
+        <h3 class="font-Mm xl:text-3xl sm:text-base text-sm py-0 text-red-400">
+          Custom cakes delivered to your door step
+        </h3>
+        <a href="">
+          <button class="bg-black px-6 py-3 mt-7">
+            <h1 class="font-Mb xl:text-3xl sm:text-lg text-2xl text-white">
+              contact
+            </h1>
+          </button>
+        </a>
+      </div>
+      <img id="hero" class="sm:w-1/2" src="../Images/Hero.jpg" alt="" />
+    </section>
+    <!-- icons -->
+    <div class="bg-gradient-to-b from-green-50 to-white p-2 text-center">
+      <div
+        class="
+          sm:my-20
+          my-14
+          mx-auto
+          flex flex-row
+          items-start
+          space-x-5
+          sm:pb-10
+          container
+          w-full
+        "
+      >
+        <div class="w-1/3 flex flex-col items-center">
+          <img
+            id="fIcon"
+            src="../Images/rush.png"
+            class="lg:w-28 sm:w-20 w-10"
+            alt=""
+          />
+          <h2 class="text-green-500 font-Mb lg:text-4xl sm:text-lg text-sm">
+            Fast
+          </h2>
+          <p class="font-Rm text-gray-700 lg:text-2xl sm:text-sm text-tiny">
+            Get within a day.
+          </p>
+        </div>
+        <div class="w-1/3 flex flex-col items-center">
+          <img
+            id="sIcon"
+            src="../Images/badge.png"
+            class="lg:w-28 sm:w-20 w-10"
+            alt=""
+          />
+          <h2 class="text-green-500 font-Mb lg:text-4xl sm:text-lg text-sm">
+            Satisfactory
+          </h2>
+          <p class="font-Rm text-gray-700 lg:text-2xl sm:text-sm text-tiny">
+            Loved by thousands of customers.
+          </p>
+        </div>
+        <div class="w-1/3 flex flex-col items-center">
+          <img
+            id="tIcon"
+            src="../Images/cake.png"
+            class="lg:w-28 sm:w-20 w-10"
+            alt=""
+          />
+          <h2 class="text-green-500 font-Mb lg:text-4xl sm:text-lg text-sm">
+            Customizable
+          </h2>
+          <p class="font-Rm text-gray-700 lg:text-2xl sm:text-sm text-tiny">
+            Anyway you want.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <section class="sm:container sm:mx-auto">
+        <div
+          class="
+            flex
+            sm:flex-row
+            flex-col
+            items-center
+            sm:text-left
+            text-center
+            mx-auto
+          "
+        >
+          <img
+            src="../Images/red-cake-with-tea-table.jpg"
+            class="sm:w-1/2 animate__animated animate__pulse"
+            alt=""
+          />
+          <div class="sm:w-1/2 sm:pl-10 sm:my-0 my-10">
+            <h1 class="font-Mb xl:text-6xl sm:text-4xl text-red-500 text-3xl">
+              Best quality,<br />
+              cakes.
+            </h1>
+            <h3 class="font-Mm xl:text-3xl sm:text-lg text-sm text-black">
+              Our cakes are made with love.
+            </h3>
+            <a href="">
+              <button class="bg-black px-6 py-3 mt-7">
+                <h1 class="font-Mb xl:text-2xl sm:text-lg text-2xl text-white">
+                  Products
+                </h1>
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="carsoul">
+      <section id="slider" class="text-center flex flex-col items-center py-20">
+        <h1 class="font-Mb border-b-8 border-red-400 md:text-6xl sm:text-3xl">
+          Testimonials
+        </h1>
+        <!-- <div class="flex py-10">
+         
+          <div
+            id="fSlide"
+            class="items-center animate__animated animate__slideInRight"
+          >
+            <img id="Img" class="" src="../Images/Testimonial-1.jpg" alt="" />
+            <h2
+              id="fName"
+              class="font-Mb text-3xl border-b-4 border-green-500 pt-2"
+            ></h2>
+            <img src="../Images/rating.png" class="pt-5 pb-2" alt="rating" />
+            <p id="fDesc" class="text-xl font-Mm"></p>
+          </div>
+
+          <div
+            id="MSlide"
+            class="
+              flex flex-col
+              items-center
+              shadow-2xl
+              animate__animated animate__zoomIn
+            "
+          >
+            <img id="Img" src="../Images/Testimonial-2.jpg" alt="" />
+            <h2
+              id="MName"
+              class="font-Mb text-5xl border-b-4 border-green-500 pt-2"
+            ></h2>
+            <img
+              src="../Images/rating.png"
+              class="w-1/3 pt-5 pb-2"
+              alt="rating"
+            />
+            <p id="MDesc" class="text-2xl font-Mm sm:m-6"></p>
+          </div>
+     
+          <div
+            id="tSlide"
+            class="
+              flex flex-col
+              items-center
+              animate__animated animate__slideInRight
+            "
+          >
+            <img id="Img" src="../Images/Testimonial-3.jpg" alt="" />
+            <h2
+              id="tName"
+              class="font-Mb text-3xl border-b-4 border-green-500 pt-2"
+            ></h2>
+            <img
+              src="../Images/rating.png"
+              class="w-1/3 pt-5 pb-2"
+              alt="rating"
+            />
+            <p id="tDesc" class="text-xl font-Mm"></p>
+          </div>
+        </div> -->
+        <div class="container my-9" id="root"></div>
+      </section>
+    </div>
+    <div>
+      <footer class="border-t-8 border-b-8 border-red-400">
+        <div
+          class="
+            flex
+            sm:flex-row
+            flex-col
+            container
+            mx-auto
+            justify-center
+            pb-10
+          "
+        >
+          <div class="sm:w-1/3">
+            <h1 class="font-Mb text-3xl pt-5 text-gray-600">Sitemap</h1>
+            <div class="font-Mm text-xl text-gray-400">
+              <a href=""><p>home</p></a>
+              <a href=""><p>about us</p></a>
+              <a href=""><p>products</p> </a>
+              <a href=""><p>contact us</p></a>
+            </div>
+          </div>
+          <div class="sm:w-1/3 flex flex-col">
+            <h1 class="font-Mb text-3xl pt-5 text-gray-600">contact</h1>
+            <div>
+              <div class="flex flex-row">
+                <img class="w-7 opacity-70" src="../Images/email.png" alt="" />
+                <h2 class="font-Mm md:text-sm text-sm pl-2 text-gray-400">
+                  CakeBake@ggsMail.com
+                </h2>
+              </div>
+              <div class="flex flex-row">
+                <img
+                  class="w-7 opacity-70"
+                  src="../Images/old-typical-phone.png"
+                  alt=""
+                />
+                <h2 class="s font-Mm sm:text-lg text-sm pl-2 text-gray-400">
+                  1-234-567-89
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="sm:w-1/3">
+            <h1 class="font-Mb text-3xl pt-5 text-gray-600">Address</h1>
+            <h2 class="font-Mm sm:text-lg text-sm text-gray-400">
+              5350 14th Ave NW,<br />
+              Anoka. Minnesota(MN),<br />
+              55303
+            </h2>
+          </div>
+        </div>
+      </footer>
+      <img class="w-16 pb-2" src="../Images/Logo.png" alt="" />
+    </div>
+    <script src="./Testimonials/Carousel.bundle.js"></script>
+  </body>
+</html>
